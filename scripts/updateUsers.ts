@@ -47,7 +47,7 @@ async function updateUser(address: string): Promise<void> {
     throw new Error('updateUser(): address contains invalid characters');
   }
 
-  const apiUrl = (process.env.API_URL || 'https://solo.ckpool.org') + `/users/${address}`;
+  const apiUrl = (process.env.API_URL || 'https://main.69pool.org') + `/users/${address}`;
 
   console.log('Attempting to update user stats for:', address);
   const db = await getDb();

@@ -1,6 +1,6 @@
-# CK Stats
+# 69pool Stats
 
-This project displays real-time and historical statistics for the CKPool Bitcoin mining pool using data from their API.
+This project displays real-time and historical statistics for the 69pool Bitcoin mining pool using data from their API.
 
 ## Features
 
@@ -19,14 +19,14 @@ This project displays real-time and historical statistics for the CKPool Bitcoin
 
 ## Deployment
 
-1. Clone the repository (git clone https://github.com/mrv777/ckstats.git)
+1. Clone the repository (git clone https://github.com/mooreInteractive/69pool-stats.git)
 2. Install pnpm: `curl -fsSL https://get.pnpm.io/install.sh | bash`
 3. Install packages if needed: `sudo apt install postgresql postgresql-contrib nodejs nginx`
-4. Go to the directory: `cd ckstats`
+4. Go to the directory: `cd 69pool-stats`
 5. Set up the environment variables in `.env`
   - Example:
    ```
-   API_URL="https://solo.ckpool.org"
+   API_URL="https://main.69pool.org"
    DB_HOST="server"
    DB_PORT="port"
    DB_USER="username"
@@ -36,7 +36,7 @@ This project displays real-time and historical statistics for the CKPool Bitcoin
    Replace `username`, `password`, `server`, `port`, `database` with your actual PostgreSQL credentials, server details, and database names.
    You can also set the DB_SSL to true if you want to use SSL and set the DB_SSL_REJECT_UNAUTHORIZED to true if you want to reject untrusted SSL certificates (like self-signed certificates).
    If PostgreSQL is running locally, you can make `DB_HOST` `/var/run/postgresql/` (which connects via a Unix socket).  The username and password are then ignored (authentication is done based on the Unix user connection to the socket).
-   If ckpool is running locally you can make `API_URL` the path to the logs directory.  For example `/home/ckpool-testnet/solobtc/logs`.
+   If the pool is running locally you can make `API_URL` the path to the logs directory.  For example `/home/69pool/solobtc/logs`.
    
 6. Install dependencies: `pnpm install`
 7. Run database migrations: `pnpm migration:run`

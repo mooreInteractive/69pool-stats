@@ -5,8 +5,8 @@ import React from 'react';
 import TopUserDifficulties from '../../components/TopUserDifficulties';
 
 export const metadata = {
-  title: 'Top 100 User Difficulties - CKstats',
-  description: 'View the top 100 user difficulties on CKPool.',
+  title: 'Top 100 User Difficulties - 69pool Stats',
+  description: 'View the top 100 user difficulties on 69pool.',
 };
 
 export default function TopDifficultiesPage() {

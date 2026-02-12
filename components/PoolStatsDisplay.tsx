@@ -141,7 +141,7 @@ export default function PoolStatsDisplay({
                 </div>
                 <div className="stat-desc">
                   <Link
-                    href="https://mempool.space/mining/pool/solock"
+                    href="https://mempool.space/mining/pool/69pool"
                     target="_blank"
                     className="link text-primary"
                   >
